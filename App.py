@@ -6,8 +6,8 @@ from sklearn.preprocessing import StandardScaler
 
 # Load models and scalers
 def load_models_and_scalers():
-    crop_model = joblib.load('Random.pkl')  # Crop recommendation model
-    fertilizer_model = joblib.load('model_ftz.pkl')  # Fertilizer recommendation model
+    crop_model = joblib.load('C:\Users\J.S.Y.Sathvika\OneDrive\Desktop\Crop and fertilizer recommendation system\crop copy.pkl')  # Crop recommendation model
+    fertilizer_model = joblib.load('C:\Users\J.S.Y.Sathvika\OneDrive\Desktop\Crop and fertilizer recommendation system\fertilizer copy.pkl')  # Fertilizer recommendation model
     crop_scaler = joblib.load('std_scaler.pkl')  # Scaler for Crop Recommendation
     fertilizer_scaler = joblib.load('scaler_ftz.pkl')  # Scaler for Fertilizer Recommendation
     return crop_model, fertilizer_model, crop_scaler, fertilizer_scaler
